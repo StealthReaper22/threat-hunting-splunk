@@ -1,0 +1,6 @@
+index=main sourcetype=access_combined event_type="malware_detected"
+| stats count by source_ip, destination_ip, description
+
+index=main sourcetype=access_combined event_type="login_failure"
+| stats count by source_ip
+| where count > 3
