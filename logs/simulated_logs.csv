@@ -1,0 +1,6 @@
+timestamp,source_ip,destination_ip,event_type,description
+2025-08-01 10:35:21,192.168.1.45,10.10.10.5,login_failure,Multiple failed logins
+2025-08-01 10:36:02,192.168.1.88,10.10.10.5,malware_detected,Trojan found in email attachment
+2025-08-01 10:36:45,172.16.0.5,10.10.10.5,file_access,Sensitive file accessed
+2025-08-01 10:37:12,192.168.1.55,10.10.10.5,port_scan,Detected nmap scan
+2025-08-01 10:38:20,192.168.1.77,10.10.10.5,login_success,Normal login
