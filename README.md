@@ -13,6 +13,7 @@ Simulated a Security Operations Center (SOC) threat-hunting exercise using Splun
 ##  Project Structure
 
 📁 logs
+
   └── simulated_logs.csv  
 📁 queries  
   └── ioc_queries.spl  
